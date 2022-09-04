@@ -1,0 +1,25 @@
+.btn-start{
+    width: 150px;
+    appearance: none;
+    border: 0;
+    padding: 15px 36px;
+    font-size: 18px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+
+    background: rgb(50,192,162);
+background: -moz-linear-gradient(45deg, rgba(50,192,162,1) 0%, rgba(232,212,61,1) 100%);
+background: -webkit-linear-gradient(45deg, rgba(50,192,162,1) 0%, rgba(232,212,61,1) 100%);
+background: linear-gradient(45deg, rgba(50,192,162,1) 0%, rgba(232,212,61,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32c0a2",endColorstr="#e8d43d",GradientType=1);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.copy{
+    font-size: 11px;
+}

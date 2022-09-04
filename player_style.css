@@ -1,0 +1,86 @@
+#player{
+    z-index: 9999;
+    direction: ltr !important;
+    width: 100%;
+    background-color: #101727;
+    position: fixed;
+    bottom: 0;
+    left: 0;           
+    border-top: 1px solid #00d3eb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#player audio{
+    display: none;
+}
+.div-actions{
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    gap: 10px;   
+    padding: 10px;    
+}
+.div-actions button{
+    background-color: transparent;
+    border: 0;
+    appearance: none;
+    color: white;
+    fill: white;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+.div-actions button:hover{
+    background-color: #049dae;
+}
+
+.div-actions .active{
+    background-color: #049dae;
+}
+
+.timeline{
+    color: #00d3eb;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+ .timeline span{
+    font-size: 16px;
+    font-weight: bold;
+    
+ }
+.timeline .slider{
+    position: relative;
+    width: 250px;
+    height: 5px;
+    position: relative;
+    background-color: #00d4eba0;
+}
+.timeline #seek-bar{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 5px;
+    background-color: #00d3eb;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+}
+.div-logo{
+    display: flex;
+    align-items: center;           
+    padding: 10px;  
+    height: 60px;
+    width: 60px;
+}
+.div-logo h4{
+    color: white;
+    margin-left: 10px;
+    font-size: 16px;
+}
+#btnVolumeMute{
+    display: none;
+}
